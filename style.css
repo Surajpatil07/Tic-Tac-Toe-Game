@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: darkcyan;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vmin;
+}
+
+.btn {
+    color: gold;
+    background-color: white;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 50px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.hidden {
+    display: none;
+}
